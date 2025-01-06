@@ -25,7 +25,7 @@
 * ###### Local variable is the variable that is declared within the method.
 
     ```java
-    // This is an example Java code snippet
+    // Defining Local Variable
     public class Main {
         public static void main(String[] args) {
             System.out.println("Hello Dev46! Welcome to Dev46!");
