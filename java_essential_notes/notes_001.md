@@ -25,20 +25,33 @@
 * ###### Local variable is the variable that is declared within the method.
 
     ```java
-    // Defining Local Variable
+    // Defining global Variable
     public class Main {
         public static void main(String[] args) {
             System.out.println("Hello Dev46! Welcome to Dev46!");
             
-            // Local Variable
+            // global Variable
             int age = 27;
+  
+            String info() {
+                System.out.println("This is an information");
+                
+                // Local Variable
+                String name = "Dev46";
+  
+                return name;
+            }
         }
     }
 
-* ###### Local variable is the variable that is declared within the method.
+* ###### Variable Naming Rules in Java 
+  ```markdown
+  Variable Naming Rules in Java
+  * Cannot contain spaces (eg: ageGroup)
+  * Can contain numbers (eg: age1)
+  * Cannot start with a number (eg: 1age)
+  * Can contain some special characters (eg: age-group, age_group)
+  * Cannot be reserved keywords (eg: class, main, String etc.)
 
 * ###### Type Inference is only allowed in Local Variable, eg: var isWaterWet = true;
-
-
-
 
