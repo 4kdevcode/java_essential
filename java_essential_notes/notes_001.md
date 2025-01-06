@@ -58,4 +58,14 @@
 * ###### Hard-Coded Variables - The values are the same every time this program is executed. (eg: int age = 27;)
 * ###### User-driven values by using "Scanner" class in Java.
 * ###### Arithmetic OOperators in Java performs basic math calculations on numeric values (byte, short, int, long, float, and double)
-* ###### 
+* ###### Arithmetic Operators show in the following table
+
+| Operator | Description                                                         | Example |
+|----------|---------------------------------------------------------------------|---------|
+| +        | Adds two numerioc values                                            | a + b   |
+| -        | Subtract one numeric value from another                             | a - b   |
+| *        | Multiplies two numeric values                                       | a * b   |
+| /        | Divides one numeric value by another                                | a / b   |
+| %        | Returns the remainder of dividing <br> one numeric value by another | a % b   |
+
+* ###### If-Statements
