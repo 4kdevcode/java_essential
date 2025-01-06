@@ -53,5 +53,9 @@
   * Can contain some special characters (eg: age-group, age_group)
   * Cannot be reserved keywords (eg: class, main, String etc.)
 
+* ###### The compiler will identify invalid variable names.
 * ###### Type Inference is only allowed in Local Variable, eg: var isWaterWet = true;
-
+* ###### Hard-Coded Variables - The values are the same every time this program is executed. (eg: int age = 27;)
+* ###### User-driven values by using "Scanner" class in Java.
+* ###### Arithmetic OOperators in Java performs basic math calculations on numeric values (byte, short, int, long, float, and double)
+* ###### 
