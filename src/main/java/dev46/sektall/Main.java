@@ -1,5 +1,7 @@
 package dev46.sektall; // Package
 
+import java.util.Scanner; // takes input from the user
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -19,6 +21,21 @@ public class Main {
         String name = "Dev46";
 
         System.out.println("Hey " + name + "! " +  "I am " + age + " and my monthly salary is Rs." + salary + "NPR.");
+
+        Scanner scanner = new Scanner(System.in);
+
+        double cp = 0; // Variable initialization
+        System.out.println("Enter cp: ");
+        cp = scanner.nextDouble();
+
+        double sp = 0;
+        System.out.println("Enter sp: ");
+        sp = scanner.nextDouble();
+
+        scanner.close();
+
+        double profit = sp - cp;
+        System.out.println("The profit is " + profit);
     }
 }
 
