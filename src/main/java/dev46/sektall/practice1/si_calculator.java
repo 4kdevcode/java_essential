@@ -3,7 +3,6 @@ package dev46.sektall.practice1;
 // Imports
 import java.util.Scanner; // takes input from the user
 
-
 public class si_calculator {
     public static void main(String[] args) {
 
